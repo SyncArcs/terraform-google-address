@@ -42,3 +42,4 @@ resource "google_dns_managed_zone" "forward" {
   force_destroy = true
   project       = "local-concord-40880"
 }
+

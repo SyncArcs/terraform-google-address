@@ -45,3 +45,4 @@ module "address" {
   addresses    = [null, null] # Let GCP auto-assign external IPs
   address_type = "EXTERNAL"
 }
+

@@ -16,3 +16,4 @@ module "address" {
   address_type = "EXTERNAL"
   ip_version   = "IPV4"
 }
+

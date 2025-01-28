@@ -22,3 +22,4 @@ output "reverse_dns_fqdns" {
   description = "List of reverse DNS PTR records registered in Cloud DNS.  (e.g. [\"1.2.11.10.in-addr.arpa\", \"2.2.11.10.in-addr.arpa\"])"
   value       = local.dns_ptr_fqdns
 }
+
